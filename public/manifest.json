@@ -1,6 +1,6 @@
 {
-  "short_name": "React App",
-  "name": "Create React App Sample",
+  "short_name": "School managment system",
+  "name": "School managment dashboard page",
   "icons": [
     {
       "src": "favicon.ico",

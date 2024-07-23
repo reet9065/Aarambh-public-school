@@ -1,0 +1,84 @@
+.login-logo{
+    width: 4rem;
+}
+
+.input-feild{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 0.5rem;
+}
+
+form{
+   width: 100%;
+}
+
+.input-feild>label{
+    font-size: 0.8rem;
+    margin-bottom: 0.4rem;
+}
+
+.alert-text{
+    color: rgb(214, 94, 94);
+    font-size: 0.69rem;
+    display: none;
+}
+.input-feild>input{
+    padding: 0.5rem;
+    border-radius: 0.25rem;
+    font-size: 0.7rem;
+    border: 1px solid var(--border-color);
+}
+
+.login-container{
+    flex-direction: column;
+    padding: 1rem;
+    border: 2px solid var(--border-color);
+    border-radius: 0.6rem;
+    width: 20rem;
+}
+
+.login-header{
+    flex-direction: column;
+}
+
+.login-header>h2{
+    font-size: 0.8rem;
+}
+
+.remember-forget{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 1rem;
+}
+
+.rememberme{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.rememberme>label{
+    font-size: 0.7rem;
+}
+
+.remember-forget>a{
+    font-size: 0.7rem;
+}
+
+.btn{
+    width: 100%;
+    padding: 0.45rem;
+    margin-top: 1rem;
+    background-color: var(--btn-color);
+    color: white;
+    border: none;
+    border-radius: 0.25rem;
+    cursor: pointer;
+}
+
+.btn:hover{
+    background-color: rgb(56, 65, 196);
+}
+
