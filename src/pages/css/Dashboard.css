@@ -1,0 +1,27 @@
+.Dashboard-Content-box{
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+.Dashboard-Content{
+    margin-left: 1rem;
+    margin-top: 1rem;
+    height: 100%;
+    padding-right: 10px;
+    overflow-y: auto; 
+    overflow-x: hidden;
+    border-radius: 1rem;
+    border: 2px solid var(--border-color);
+    box-shadow: var(--main-boxShadow);
+}
+
+.Dashboard-Content::-webkit-scrollbar{
+    width: 20px;
+}
+
+
+.Dashboard-Content{
+    scrollbar-width: thin;
+    scrollbar-color: rgb(199, 199, 199) rgb(233, 233, 233);
+}

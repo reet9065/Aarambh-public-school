@@ -35,7 +35,12 @@ form{
     padding: 1rem;
     border: 2px solid var(--border-color);
     border-radius: 0.6rem;
-    width: 20rem;
+    width: min(20rem, 90%);
+
+    margin: 0 auto; 
+    /* position: relative; */
+    /* top: 50%; */
+    /* transform: translateY(-50%); */
 }
 
 .login-header{

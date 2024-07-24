@@ -1,0 +1,29 @@
+.Dashboard-Content-box-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 1rem;
+    padding: 0.5rem;
+    border-radius: 1rem;
+    box-shadow: var(--main-boxShadow);
+    border: 1px solid var(--border-color);
+}
+
+.logo-name,
+.search_bar-profile{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.search_bar-profile{
+    gap: 1rem;
+}
+
+.Header-logo{
+    width: 4rem;
+}
+
+.Profile-pic{
+    width: 3rem;
+}
